@@ -1,0 +1,55 @@
+/* write a program to give grades to a student
+   marks < 30 is C grades
+   30 <= marks < 70 is B grades
+   70 <= marks < 90 is A grade
+   90 <= marks <= 100 is A+    */
+   
+#include<stdio.h>
+
+int main()
+{
+    int marks;
+    printf("Enter the marks you scored : ");
+    scanf("%d",&marks);
+    if(marks>=0 && marks<30)
+    {
+        printf("You have secured C grade ");
+    }
+    else if(marks>=30 && marks <70)
+    {
+        printf("You have secured  B  grade");
+    }
+    else if(marks>=70 && marks<90)
+    {
+        printf("you have secured  A  grade");
+    }
+    else if(marks>=90 && marks<=100)
+    {
+        printf(" you have secured  A+  grade");
+    }
+    else
+    {
+        printf("You have not entered the valid marks ");
+    }
+    
+    return 0;
+    
+}    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+   
+
