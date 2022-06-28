@@ -1,0 +1,20 @@
+//A = 65  a = 97
+//Z = 90  b = 122
+
+
+#include<stdio.h>
+int main(){
+    char ch;
+    printf("enterr a character : ");
+    scanf("%s",&ch);
+    if(ch >= 'A' && ch <= 'Z'){
+        printf("entered character is UPPER CASE ");
+    }
+    else if(ch >= 'a' && ch <= 'z'){
+        printf("entered character is LOWER CASE ");
+    }
+    else{
+        printf("Entered is NOT a character ");
+    }
+    return 0;
+}
